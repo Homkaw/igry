@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+.wraper{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,10,0,1) 100%);
+    width: 100%;
+}
+
+
+.container{
+    width: 1400px;
+    margin: 0 auto; 
+}
+
+.header{
+    padding: 50px 0;
+}
+
+
+.Logo, .logo{
+    text-transform:uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.menu{
+    float: right;
+    width: 50%;
+    z-index: 2;
+    position: relative;
+}
+
+.menu-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    display: inline-block;
+}
+
+.menu-item:not(.button):hover {
+    border-bottom: 5px solid #DC7000;
+}
+
+.buttn a,
+.forms button{
+    background-color: #FA9021;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+.buttn a:hover,
+.forms button:hover{
+    background-color: #fa4c21;
+}
+
+
+.hero{
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-info{
+    width: 530px;
+    padding-top: 70px;
+}
+
+.title-yel{
+    font-weight: 600;
+    font-size: 20px;
+    color: #E87D0E;
+}
+
+.hero-title{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.text{
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+
+.button{
+    background-color: #FA9021;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 17px
+}
+
+.button:hover{
+    background-color: #fa4c21;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero img{
+    position: absolute;
+    top: -150px;
+    right: 0;
+}
+
+
+/* Секция с игрвми */
+
+.trending{
+    margin-top: 50px;
+}
+
+.title{
+    font-weight: 31px;
+    font-weight: 600;
+}
+
+.see-all{
+    color: white;
+    background-color: #25211D;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.see-all:hover{
+    transform: scale(1.1);
+}
+
+
+.games{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.game span{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.big-text{
+    padding: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 800px;
+}
+
+
+.baner{
+    padding: 80px 0;
+}
+
+.baner .title{
+    margin-bottom: 30px;
+}
+
+.text-p{
+    line-height: 170%;
+    margin-bottom: 30px;
+    width: 550px;
+}
+
+.baner-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+/* Секция с изображением */
+
+.features{
+ background: url('../img/bg.png') no-repeat center center fixed;
+ background-size: cover;
+ padding: 80px 0;
+}
+
+.features .title,
+.features .text{
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.block{
+    text-align: center;
+    width: 20%;
+    margin: 30px 2%;
+}
+
+
+.block img{
+    margin-bottom: 15px;
+}
+
+
+.projects{
+    padding: 100px 0;
+}
+
+.projects .title{
+    text-align: center;
+}
+
+.projects .text{
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.projects .see-all{
+    float: none;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Нижняя часть */
+
+.email{
+    padding-bottom: 120px;
+}
+
+
+.email .title{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.forms{
+    background-color: #1C140F;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.forms .title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.forms .text{
+    width: 500px;
+}
+
+.forms input{
+    background: white;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 20px 30px;
+    color: #361c01;
+    position: relative;
+    right: -140px;
+    z-index: 1;
+    padding-right: 120px;
+}
+
+.forms input::placeholder{
+    color: #361c01;
+}
+
+.forms button{
+    cursor: pointer;
+    border: 0;
+    padding: 15px 18px;
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+
+/* Footer */
+
+.footer{
+    background: black;
+    padding: 50px 0 ;
+}
+
+.footer .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .text{
+    width: 300px;
+    margin: 15px 0;
+}
+
+
+.footer h4{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-top: 7px;
+    opacity: 0.8;
+}
+
+
+.footer hr{
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #25211D;
+}
+
+.copy{
+    text-align: center;
+}
